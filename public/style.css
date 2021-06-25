@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(166, 113, 226);
+    font-family: 'Nerko One', cursive;
+}
+#main{
+    margin-left: 430px;
+}
+h1{
+    color: wheat;
+}
+
+#r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8,#r9{
+    border : 1px solid;
+    height: 150px;
+    width: 165px;
+    float: left;
+    font-size: 120px;
+    text-align: center;
+    border-color: wheat;
+    color: wheat;
+    font-family: 'Nerko One', cursive;
+}
+#r1,#r4,#r7{
+    clear: left;
+    border-left: none;
+}
+#r1,#r2,#r3{
+    border-top: none;
+}
+
+#r6,#r3,#r9{
+    border-right: none;
+}
+#r7,#r8,#r9{
+    border-bottom: none;
+}
